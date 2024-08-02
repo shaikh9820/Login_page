@@ -1,0 +1,74 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    background-image: url(op.jpg);
+    width: 100%;
+    height: 100%;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+.container{
+    width: 450px;
+    height: 500px;
+    background: linear-gradient(180deg, #04fafd, 5%, #119dff, 50%, #030423);
+    position: absolute;
+    left: 420px;
+    top: 80px;
+    border-radius: 2px;
+    background: inherit;
+    overflow: hidden;
+}
+h2{
+    background-color: transparent;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(4, 63, 63);
+    border-radius: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 4px 4px 3px #77f;
+    font-style: italic;
+}
+a{
+    background-color: transparent;
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+a:hover{
+    font-size: large;
+}
+input{
+    font-size: 20px;
+    width: 250px;
+    height: 20px;
+    position: relative;
+    top: 40px;
+    left: 70px;
+    margin-bottom: 30px;
+    font-style: oblique;
+    border-radius: 2px;
+    padding: 5px 15px;
+    border: 0;
+    opacity: 0.7;
+}
+input:hover{
+    width: 300px;
+    height: 40px;
+}
+input[type="Submit"]{
+    width: 100;height: 50px;
+    position: relative;
+    left: 70px;
+    font-style: oblique;
+    border-radius: 2px;
+    padding: 5px 15px;
+    border: 0;
+    opacity: 0.7;
+}
+input:hover[type="Submit"]{
+    background-color: blue;
+    width: 120px;height: 70px;
+
+}
